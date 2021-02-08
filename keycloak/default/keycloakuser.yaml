@@ -3,7 +3,7 @@ kind: KeycloakUser
 metadata:
   name: admin
   labels:
-    app: default-keycloak
+    app: keycloak
 spec:
   user:
     username: "admin"
@@ -16,4 +16,4 @@ spec:
         value: "12345"
   realmSelector:
     matchLabels:
-      realm: default-keycloakrealm
+      realm: default

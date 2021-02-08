@@ -1,9 +1,9 @@
 apiVersion: keycloak.org/v1alpha1
 kind: Keycloak
 metadata:
-  name: default-keycloak
+  name: keycloak
   labels:
-    app: default-keycloak
+    app: keycloak
 spec:
   instances: 1
   externalAccess:
