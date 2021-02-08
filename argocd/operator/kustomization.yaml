@@ -1,0 +1,7 @@
+namespace: argocd
+
+resources:
+- argocd-namespace.yaml
+- argocd-operator-group.yaml
+- argocd-subscription.yaml
+- argocd-cluster-role-binding.yaml

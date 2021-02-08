@@ -1,0 +1,6 @@
+namespace: keycloak
+
+resources:
+- keycloak.yaml
+- keycloakrealm.yaml
+- keycloakuser.yaml

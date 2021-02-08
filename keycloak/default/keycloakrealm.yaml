@@ -1,0 +1,14 @@
+apiVersion: keycloak.org/v1alpha1
+kind: KeycloakRealm
+metadata:
+  name: default-keycloakrealm
+  labels:
+    realm: default-keycloakrealm
+spec:
+  realm:
+    realm: "default"
+    enabled: True
+    displayName: "Default Realm"
+  instanceSelector:
+    matchLabels:
+      app: default-keycloak
