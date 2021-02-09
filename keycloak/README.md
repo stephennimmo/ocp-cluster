@@ -1,5 +1,7 @@
 # keycloak 
 
+`kustomize build overlays/dev | kubectl apply -f -`
+
 `oc get keycloak/defaultkeycloak -o jsonpath='{.status.ready}'`
 
 `oc get keycloakrealms/default -o jsonpath='{.status.ready}'`

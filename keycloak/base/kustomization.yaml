@@ -1,0 +1,9 @@
+namespace: keycloak
+
+resources:
+- namespace.yaml
+- operatorgroup.yaml
+- subscription.yaml
+- keycloak.yaml
+- realm-default/keycloak-realm.yaml
+- realm-default/keycloak-user-admin.yaml

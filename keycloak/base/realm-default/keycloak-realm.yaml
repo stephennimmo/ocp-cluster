@@ -1,7 +1,7 @@
 apiVersion: keycloak.org/v1alpha1
 kind: KeycloakRealm
 metadata:
-  name: default-keycloakrealm
+  name: default-keycloak-realm
   labels:
     app: keycloak
     realm: default
