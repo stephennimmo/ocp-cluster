@@ -1,0 +1,6 @@
+namespace: database
+
+resources:
+- namespace.yaml
+- operator-group.yaml
+- subscription.yaml
