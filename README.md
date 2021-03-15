@@ -8,3 +8,4 @@ Login to cluster
 
 `oc describe packagemanifests keycloak-operator -n openshift-marketplace`
 
+test
