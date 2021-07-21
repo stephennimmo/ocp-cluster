@@ -1,0 +1,11 @@
+apiVersion: triggers.tekton.dev/v1alpha1 
+kind: Trigger 
+metadata:
+  name: github-trigger 
+  namespace: cicd-pipelines
+spec:
+  serviceAccountName: pipeline 
+  bindings:
+    - ref: github-trigger-binding
+  template: 
+     ref: github-trigger-template
