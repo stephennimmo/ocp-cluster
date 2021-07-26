@@ -1,0 +1,9 @@
+kind: Subscription
+apiVersion: operators.coreos.com/v1alpha1
+metadata:
+  name: amq-streams-subscription
+spec:
+  channel: stable
+  name: amq-streams
+  source: redhat-operators
+  sourceNamespace: openshift-marketplace 
