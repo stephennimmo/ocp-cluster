@@ -1,0 +1,12 @@
+apiVersion: keycloak.org/v1alpha1
+kind: Keycloak
+metadata:
+  name: snimmo-keycloak
+  namespace: sso
+  labels:
+    app: snimmo-keycloak
+spec:
+  externalAccess:
+    enabled: true
+    tlsTermination: edge
+  instances: 1

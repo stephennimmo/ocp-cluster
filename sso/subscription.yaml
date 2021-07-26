@@ -1,9 +1,9 @@
 kind: Subscription
 apiVersion: operators.coreos.com/v1alpha1
 metadata:
-  name: keycloak-operator-subscription
+  name: rhsso-operator-subscription
 spec:
   channel: alpha
-  name: keycloak-operator
-  source: community-operators
+  name: rhsso-operator
+  source: redhat-operators
   sourceNamespace: openshift-marketplace 

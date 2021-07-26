@@ -1,0 +1,20 @@
+apiVersion: keycloak.org/v1alpha1
+kind: KeycloakUser
+metadata:
+  name: stephen-keycloak-user
+  namespace: sso
+  labels:
+    app: snimmo-keycloak
+spec:
+  user:
+    username: "stephen"
+    firstName: "Stephen"
+    lastName: "Nimmo"
+    email: "snimmo@redhat.com"
+    enabled: True
+    credentials:
+      - type: "password"
+        value: "Pass123!"
+  realmSelector:
+    matchLabels:
+      realm: snimmo
